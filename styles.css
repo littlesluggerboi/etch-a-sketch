@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0; */
+}
+.container{
+    gap: 0;
+    padding: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 960px; */
+    /* max-height: 960px; */
+}
+.square{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+.hover{
+    /* transform: scale(1.1); */
+    /* border: 1px solid rgb(22, 139, 120); */
+    background-color: rgb(22, 139, 120);
+}
+button{
+    height: 48px;
+    width: 128px;
+    margin: 24px;
+}
