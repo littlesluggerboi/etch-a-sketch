@@ -19,7 +19,7 @@ function askSideLength() {
 
 }
 function removeGrid(){
-    if(document.body.children.length > 1){
+    if (Boolean(document.body.children[1])){
         document.body.children[1].remove();
     }
 }
