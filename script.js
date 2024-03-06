@@ -19,8 +19,8 @@ function askSideLength() {
 
 }
 function removeGrid(){
-    if(document.body.children.length > 2){
-        document.body.children[2].remove();
+    if(document.body.children.length > 1){
+        document.body.children[1].remove();
     }
 }
 function renderGrid() {
